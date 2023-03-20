@@ -3,6 +3,11 @@
 每天一道Medium算法题，用JavaScript实现，题源为[LeetCode](https://leetcode.com/problemset/algorithms/)
 
 
+
+你说的对，但是《JavaScript》是由Brendan Eich自主研发的一种全新开放式脚本语言。游戏发生在一个被称作「浏览器」的幻想世界，在这里，被神选中的人将被授予「API」，导引元素(Element)之力。你将扮演一位名为「前端程序员」的神秘角色，在自由的开发中邂逅性能各异、能力独特的框架，和他们一起编写程序，找回失散的Bug——同时，逐步发掘「0面试0offer」的真相。 
+
+
+
 ## 踩坑
 
 ### JS中的数组
@@ -45,5 +50,4 @@ Number(str) + num; // 2
 // 对于减法则字符串会自动转换为数字
 str - num; // 0
 ```
-
 
