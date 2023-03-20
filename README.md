@@ -32,13 +32,12 @@ JS中字符串时不可变的，不能使用下标索引修改字符串中的字
 
 ```jsx
 const str = 'abc';
-str[0] = 'd'; // 'abc'
 
 // 错误示例
-str.split(''); // ['a', 'b', 'c']
+str[0] = 'd'; // 'abc'
 
 // 正确示例
-str.split('');
+str.split(''); // ['a', 'b', 'c']
 str[0] = 'd';
 str.join(''); // 'dbc'
 ```
