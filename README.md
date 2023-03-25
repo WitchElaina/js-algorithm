@@ -57,3 +57,13 @@ Number(str) + num; // 2
 str - num; // 0
 ```
 
+## 技巧
+
+### 初始化数组
+
+创建一个已知长度的数组并初始化，可以使用ES6引入的`fill`方法
+
+```jsx
+let arr = new Array(length).fill(init_value)
+```
+
