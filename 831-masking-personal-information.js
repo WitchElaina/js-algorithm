@@ -9,6 +9,7 @@ function maskEmail(email) {
 
 /**
  * @param {string} phoneNum
+ * @return {string}
  */
 function maskPhone(phoneNum) {
     num = phoneNum.split(/[\+\(\)\- ]/).join('');
